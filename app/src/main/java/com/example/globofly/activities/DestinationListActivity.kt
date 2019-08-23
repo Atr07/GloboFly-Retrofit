@@ -1,14 +1,14 @@
-package com.smartherd.globofly.activities
+package com.example.globofly.activities
 
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
-import com.smartherd.globofly.R
-import com.smartherd.globofly.helpers.DestinationAdapter
-import com.smartherd.globofly.models.Destination
-import com.smartherd.globofly.services.DestinationService
-import com.smartherd.globofly.services.ServiceBuilder
+import com.example.globofly.R
+import com.example.globofly.helpers.DestinationAdapter
+import com.example.globofly.models.Destination
+import com.example.globofly.services.DestinationService
+import com.example.globofly.services.ServiceBuilder
 import kotlinx.android.synthetic.main.activity_destiny_list.*
 import retrofit2.Call
 import retrofit2.Callback

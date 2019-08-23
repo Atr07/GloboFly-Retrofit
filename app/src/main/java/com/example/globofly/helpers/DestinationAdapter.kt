@@ -1,4 +1,4 @@
-package com.smartherd.globofly.helpers
+package com.example.globofly.helpers
 
 import android.content.Intent
 import android.support.v7.widget.RecyclerView
@@ -7,9 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 
-import com.smartherd.globofly.activities.DestinationDetailActivity
-import com.smartherd.globofly.models.Destination
-import com.smartherd.globofly.R
+import com.example.globofly.activities.DestinationDetailActivity
+import com.example.globofly.models.Destination
+import com.example.globofly.R
 
 class DestinationAdapter(private val destinationList: List<Destination>) : RecyclerView.Adapter<DestinationAdapter.ViewHolder>() {
 

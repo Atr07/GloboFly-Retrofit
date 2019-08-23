@@ -1,13 +1,13 @@
-package com.smartherd.globofly.activities
+package com.example.globofly.activities
 
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.widget.Toast
-import com.smartherd.globofly.R
-import com.smartherd.globofly.services.MessageService
-import com.smartherd.globofly.services.ServiceBuilder
+import com.example.globofly.R
+import com.example.globofly.services.MessageService
+import com.example.globofly.services.ServiceBuilder
 import kotlinx.android.synthetic.main.activity_welcome.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -22,7 +22,7 @@ class WelcomeActivity : AppCompatActivity() {
 		// To be replaced by retrofit code
 
         val messageService = ServiceBuilder.buildService(MessageService::class.java)
-        val requestCall = messageService.getMessages("http://10.0.2.2:7000/messages")
+        val requestCall = messageService.getMessages("https://0ce9cdc1.ngrok.io/messages")
 
         requestCall.enqueue(object: Callback<String> {
 

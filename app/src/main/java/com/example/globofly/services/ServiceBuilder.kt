@@ -1,4 +1,4 @@
-package com.smartherd.globofly.services
+package com.example.globofly.services
 
 import android.os.Build
 import okhttp3.Interceptor
@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit
 object ServiceBuilder {
 
     // Before release, change this URL to your live server URL such as "https://smartherd.com/"
-    private const val URL = "http://10.0.2.2:9000/"
+    private const val URL = "https://0ce9cdc1.ngrok.io/"
 
     // Create Logger
     private val logger = HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)

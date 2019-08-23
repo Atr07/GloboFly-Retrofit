@@ -1,4 +1,4 @@
-package com.smartherd.globofly
+package com.example.globofly
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

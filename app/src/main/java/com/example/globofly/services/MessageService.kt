@@ -1,4 +1,4 @@
-package com.smartherd.globofly.services
+package com.example.globofly.services
 
 import retrofit2.Call
 import retrofit2.http.GET

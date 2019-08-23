@@ -1,6 +1,6 @@
-package com.smartherd.globofly.helpers
+package com.example.globofly.helpers
 
-import com.smartherd.globofly.models.Destination
+import com.example.globofly.models.Destination
 import java.util.*
 
 object SampleData {

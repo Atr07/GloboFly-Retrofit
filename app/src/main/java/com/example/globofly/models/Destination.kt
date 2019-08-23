@@ -1,4 +1,4 @@
-package com.smartherd.globofly.models
+package com.example.globofly.models
 
 data class Destination(
 	var id: Int = 0,

@@ -1,4 +1,4 @@
-package com.smartherd.globofly
+package com.example.globofly
 
 import org.junit.Test
 

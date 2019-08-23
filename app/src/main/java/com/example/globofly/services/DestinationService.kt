@@ -1,6 +1,6 @@
-package com.smartherd.globofly.services
+package com.example.globofly.services
 
-import com.smartherd.globofly.models.Destination
+import com.example.globofly.models.Destination
 import retrofit2.Call
 import retrofit2.http.*
 
