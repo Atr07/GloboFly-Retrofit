@@ -1,5 +1,6 @@
 package com.example.globofly.services
 
+import android.annotation.SuppressLint
 import android.os.Build
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
@@ -12,7 +13,10 @@ import java.util.concurrent.TimeUnit
 
 object ServiceBuilder {
 
-    // Before release, change this URL to your live server URL such as "https://smartherd.com/"
+    /*Before running the project, change this URL to your live server URL
+    Run the node project locally and use ngrok to get the url
+    such as "https://sample.ngrok.io/" */
+
     private const val URL = "https://0ce9cdc1.ngrok.io/"
 
     // Create Logger
@@ -21,6 +25,7 @@ object ServiceBuilder {
     // Create a Custom Interceptor to apply Headers application wide
     val headerInterceptor = object: Interceptor {
 
+        @SuppressLint("ConstantLocale")
         override fun intercept(chain: Interceptor.Chain): Response {
 
             var request = chain.request()
